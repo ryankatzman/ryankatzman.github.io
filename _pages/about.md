@@ -11,21 +11,17 @@ redirect_from:
 
 I'm a first year Computer Engineering major at Georgia Tech with an additional Minor in Mathematics, with a predicted graduation in May 2028. I plan on specializing in the Computing Hardware and Emerging Architecture thread and the Signal Processing thread.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
 <h2 style="text-align: center;">Relevant Courses I've taken:</h2>
 
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-  <span>Fundamentals of Digital System Design</span>
-  <span>Digital Design Lab</span>
-  <span>Programming for HW/SW Systems</span>
-  <span>Object-Oriented Programming</span>
+  <span>Object Oriented Programming</span>
+  <span>Data Structures and Algorithms</span>
+  <span>Digital System Design</span>
 </div>
 
 # Skills
 
 | **Programming** | Verilog/System Verilog, Java, Python |
-|----------------|---------------------|
 | **Software** | Git, Cadence |
 
 ======
