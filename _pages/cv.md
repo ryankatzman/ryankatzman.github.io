@@ -5,9 +5,9 @@ permalink: /cv/
 ---
 
 <div style="height: 100vh;">
-  <embed src="/assets/pdf/resume.pdf" type="application/pdf" width="100%" height="100%">
+  <embed src="{{ '/assets/resume.pdf' | relative_url }}" type="application/pdf" width="100%" height="100%">
 </div>
 
 <p style="text-align: center; margin-top: 1rem;">
-  <a href="/assets/resume.pdf" target="_blank">Open resume PDF</a>
+  <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank">Open resume PDF</a>
 </p>
