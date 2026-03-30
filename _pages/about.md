@@ -9,7 +9,7 @@ redirect_from:
 
 # Education
 
-I'm a first year Computer Engineering major at Georgia Tech with an additional Minor in Mathematics, with a predicted graduation in May 2028. I plan on specializing in the Computing Hardware and Emerging Architecture thread and the Signal Processing thread.
+I'm a first year Computer Engineering student at the Georgia Institute of Technology, also pursuing a minor in Mathematics, planning to graduate in May 2028. I plan to specialize in the Computing Hardware and Emerging Architecture thread alongside the Signal Processing thread, driven by an interest in low-level hardware design. My main focus centers on digital design, where I like to work with concepts like logic design and hardware description languages to build and optimize real world computing components. I'm particularly interested in the intersection of hardware and software, and how design at the architectural level can enable faster systems.
 
 <h2 style="text-align: center;">Relevant Courses I've taken:</h2>
 
@@ -19,13 +19,15 @@ I'm a first year Computer Engineering major at Georgia Tech with an additional M
   <span>Digital System Design</span>
 </div>
 
+
 # Skills
 
 | **Programming** | Verilog/System Verilog, Java, Python |
 | **Software** | Git, Cadence |
 
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+# Goals
+
+My long term career goal is to work as a computer engineer specializing in digital design and hardware architecture, helping contribute to the development of efficient and high-performance systems. To achieve this, I plan to build a strong foundation through coursework in computer engineering and mathematics, gain hands on experience through projects and organizations like [Silicon Jackets](https://siliconjackets.gt/), and develop technical skills in areas such as FPGA design. I also plan to pursue internships to gain real-world experience, and consider continuing my education to pursue a Master's degree, deepening my knowledge.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
