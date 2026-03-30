@@ -9,5 +9,5 @@ permalink: /cv/
 </div>
 
 <p style="text-align: center; margin-top: 1rem;">
-  <a href="/assets/pdf/resume.pdf" target="_blank">Open resume PDF</a>
+  <a href="/assets/resume.pdf" target="_blank">Open resume PDF</a>
 </p>
