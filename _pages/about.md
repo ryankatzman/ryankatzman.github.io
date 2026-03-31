@@ -9,7 +9,7 @@ redirect_from:
 
 ## Hello!
 
-I'm a first year Computer Engineering student at Georgia Tech, with an interest in digital and chip design.
+Welcome! I'm a first year Computer Engineering student at Georgia Tech, with an interest in digital and chip design.
 
 This website showcases my experience, my projects, and my interests. Feel free to browse around to learn more about me.
 
