@@ -1,4 +1,4 @@
-<img width="1816" height="1146" alt="image" src="https://github.com/user-attachments/assets/9c125ef9-a588-44e4-8a63-698b9f55c549" />---
+---
 title: "64 Bit System Verilog Adder"
 excerpt: "Designed and verified a SystemVerilog-based calculator chip capable of performing 64-bit addition<br/><img src='/images/final.png' style='width: 300px;'>"
 collection: portfolio
