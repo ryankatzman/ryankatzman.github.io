@@ -1,9 +1,8 @@
 ---
-layout: archive
-permalink: /year-archive/
-title: "Blog posts"
+permalink: /about-me/
+title: "About Me"
 author_profile: true
 redirect_from:
-  - /wordpress/blog-posts/
+  - /about-me/
+  - about-me.html
 ---
-
