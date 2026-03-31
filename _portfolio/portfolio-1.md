@@ -14,16 +14,24 @@ The workflow demonstrated how collaboration between subteams is important to ens
 <div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 40px;">
 
   <div style="flex: 1;">
-    <h3>Digital Design</h3>
     <p>The digital design portion of this projedct focused on implementing the calculator at the RTL level using SystemVerilog. The system was composed of several key modules, including a 32-bit adder, result buffer, a controller, and a top-level integration module. The 32-bit addedr was constructed using a hierarchy of 1-bit full adders connected through generate statements, enabling scalable and efficient operations. The result buffer stored intermediate results and allowed selective placement of data into either half of a 64-bit register.
 The controller was implemented as a finate state machine (FSM) that coordinated all operations within the system. It handled reading operands from memory, sequencing lower and upper 32-bit additions, managing carry in and carry out propogation, and writing results back to memory. This required careful attention to control signals, timing, and synchroniztion between modules. The top-level module integrated all components and connected them to a simulalte SRAM interface, enabling full functionality.
 A major focus of this phase was desigining clean, synthesizable hardware using practices such as separating combinational and sequantial logic and ensuring proper signal flow. The result was a modular design that accurately performed large-scale arithmetic operations while maintaining clarity and structure.</p>
   </div>
 
-  <div style="flex-shrink: 0;">
-    <img src="/images/code.png" style="width: 300px; display: block; margin-bottom: 10px;">
-    <img src="/images/timing.png" style="width: 300px; display: block;">
+  <div style="display: flex; flex-direction: column; gap: 20px;">
+
+  <div style="display: flex; gap: 20px;">
+    <img src="/images/design1.png" style="width: 300px;">
+    <p>Code from controller</p>
   </div>
+
+  <div style="display: flex; gap: 20px;">
+    <img src="/images/timing.png" style="width: 300px;">
+    <p>Timing diagram to help debug code</p>
+  </div>
+
+</div>
 
 </div>
 
