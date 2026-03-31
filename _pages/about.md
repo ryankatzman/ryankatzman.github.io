@@ -19,11 +19,15 @@ I'm a first year Computer Engineering student at the Georgia Institute of Techno
   <span>Digital System Design</span>
 </div>
 
+<br>
+
 
 # Skills
 
 | **Programming** | Verilog/System Verilog, Java, Python |
 | **Software** | Git, Cadence |
+
+<br>
 
 # Goals
 
