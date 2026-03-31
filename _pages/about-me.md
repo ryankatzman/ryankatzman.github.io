@@ -7,7 +7,8 @@ redirect_from:
   - about-me.html
 ---
 
-Hi, I'm Ryan Katzman.
+Hi, I'm Ryan Katzman. I was born and raised in Atlanta, Georgia and have lived here my entire life. From an early age, I developed a strong interests in computers through building, exploring, and learning how they work, which led me to choose computer engineering as both a field of study and long term career.
+Outside of academics, I love to travel and experience new places (I'm even studying abroad in China this summer!). Alongside this, I love watching movies, reading books, and listening to music. 
 
 # Education
 
