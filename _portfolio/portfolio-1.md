@@ -36,3 +36,41 @@ A major focus of this phase was desigining clean, synthesizable hardware using p
   </div>
 
 </div>
+
+# Design Verification
+
+The verification phase ensure that the designed system behaved correctly under a wide range of conditions and parameters before tapeout. This involved developing a comprehensive testbench environment that interacted dwith the design under test (DUT) and validated its functionality through simulation. The testbench included key components suchh as a driver, monitor, scoreboard, and sequence items, each responsible for different aspects of stimulus generation and result checking. <br>
+A detailed test plan was created to guide verification efforts, including functional tests, edge case testing, constrained randomized testing, and assertion-based testing. Functional tests verified basic arithmetic operations, while edge case tests ensured correct behavior under boundary conditions such as overflow scenarios. Constrained random testing allowed for broad input coverage without manually writing extensive test cases, improving confidence in the design. <br>
+Assertions were used to verify internal behaviors, such as correct carry propagation and proper sequencing of operations, which are not always visible through outputs alone. Coverage analysis tools were used to measure how thoroughly the design was tested, with a target of achieving at least 98% coverage, with my design covering 99.5% of cases. This phase reinforced the importance of rigorous validation and demonstrated how verification plays a critical role in ensuring hardware reliability before physical implementation.
+
+# Physical Design
+
+<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 40px;">
+
+  <div style="flex: 1;">
+    <p>
+      The physical design portion introduced the process of transforming RTL into a manufacturable chip layout. While the project did not require full custom layout design, it provided exposure to the key stages involved in physical implementation, including synthesis, placement and routing, and static timing analysis. RTL code is first synthesized into a gate-level netlist, which definess the logic gates and their interconnections, and is then used to generate a physical layout of thechip.
+      Key considerations in physical design include power, performance (timing), and area, which must be balanced during optimization. Tools such as Cadence Genus and Innovus are used to automate these processes, while static timing analysis ensures that signal propagation delays meet required clock constraints. The project also introduced concepts such as clock distribution, routing congestion, and design rule checking, all of which are critical for producing a functional and efficient chip.
+Additionally, scripting and debugging workflows were emphasized, highlighting how automation is used to manage complex design flows. This exposure provided insight into how high-level hardware descriptions are ultimately translated into real silicon, reinforcing the connection between digital design decisions and their physical consequences.
+    </p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 30px;">
+
+  <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="/images/slack.png" style="width: 300px; margin-bottom: 10px;">
+      <p style="text-align: center;">Static timing analysis shows no negative slack</p>
+    </div>
+
+   <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="/images/debug.png" style="width: 300px; margin-bottom: 10px;">
+      <p style="text-align: center;">Chip mid-debugging process</p>
+    </div>
+
+  </div>
+
+</div>
+
+# What I Gained
+
+During this six-week onboarding project, I learned a lot about Digital Design, Design Verification, and Physical Design, broadening my total knowledge on the subject. However, I believe the most important part of this project to me was the fact that it opened my eyes to digital design. Unlike typical computer science (which I'm more accustomed to), digital design requires more attention to detail and more awareness of what you're actually making. Because this will take up real space on real chips, everything must be intentional and you can't take shortcuts. This philosophy is very important to me, and it is why I believe digital design is the career choice for me.
