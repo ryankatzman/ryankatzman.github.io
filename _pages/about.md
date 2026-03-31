@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+Hi, I'm Ryan Katzman.
+
 # Education
 
 I'm a first year Computer Engineering student at the Georgia Institute of Technology, also pursuing a minor in Mathematics, planning to graduate in May 2028. I plan to specialize in the Computing Hardware and Emerging Architecture thread alongside the Signal Processing thread, driven by an interest in low-level hardware design. My main focus centers on digital design, where I like to work with concepts like logic design and hardware description languages to build and optimize real world computing components. I'm particularly interested in the intersection of hardware and software, and how design at the architectural level can enable faster systems.
