@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Designed and verified a SystemVerilog-based calculator chip capable of performing 64-bit addition"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/final.png'>"
 collection: portfolio
 ---
 
