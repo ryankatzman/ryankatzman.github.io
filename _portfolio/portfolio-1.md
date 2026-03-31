@@ -1,6 +1,6 @@
 ---
 title: "64 bit adder"
-excerpt: "Designed and verified a SystemVerilog-based calculator chip capable of performing 64-bit addition<br/><img src="/images/final.png" style="width: 40%;">"
+excerpt: "Designed and verified a SystemVerilog-based calculator chip capable of performing 64-bit addition<br/><img src='/images/final.png' style='width: 300px;'>"
 collection: portfolio
 ---
 
