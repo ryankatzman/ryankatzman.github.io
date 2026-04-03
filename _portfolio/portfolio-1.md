@@ -8,6 +8,7 @@ collection: portfolio
 
 This project was part of a structured onboarding process for [Silicon Jackets](https://siliconjackets.gt/), a chip design club at Georgia tech. This onboarding simulated a real-world chip design workflow, where the goal was to design, verify, and understand the physical implementation of a digital system. The main objective was to build a calculator capable of performing 64-bit unsigned integer addition by combining two 32-bit operations, while also developing familiarity with industry-standard tools. The project was divided into three major components: digital design (RTL development), design verification (testbench and validation), and physical design (understanding synthesis and layout processes).
 The workflow demonstrated how collaboration between subteams is important to ensure correctness before fabrication, mirroring industry standards. Throughout the project, emphasis was placed on modular design, clear documentation, and iterative debugging. By the end, the system was not only functionally correct, but also thoroughly tested and analyzed, providing a strong foundation in both hardware design and the broader chip development lifecycle.
+<br>
 
 # Digital Design
 
@@ -42,6 +43,7 @@ A major focus of this phase was desigining clean, synthesizable hardware using p
 The verification phase ensure that the designed system behaved correctly under a wide range of conditions and parameters before tapeout. This involved developing a comprehensive testbench environment that interacted dwith the design under test (DUT) and validated its functionality through simulation. The testbench included key components suchh as a driver, monitor, scoreboard, and sequence items, each responsible for different aspects of stimulus generation and result checking. <br>
 A detailed test plan was created to guide verification efforts, including functional tests, edge case testing, constrained randomized testing, and assertion-based testing. Functional tests verified basic arithmetic operations, while edge case tests ensured correct behavior under boundary conditions such as overflow scenarios. Constrained random testing allowed for broad input coverage without manually writing extensive test cases, improving confidence in the design. <br>
 Assertions were used to verify internal behaviors, such as correct carry propagation and proper sequencing of operations, which are not always visible through outputs alone. Coverage analysis tools were used to measure how thoroughly the design was tested, with a target of achieving at least 98% coverage, with my design covering 99.5% of cases. This phase reinforced the importance of rigorous validation and demonstrated how verification plays a critical role in ensuring hardware reliability before physical implementation.
+<br>
 
 # Physical Design
 
@@ -73,4 +75,4 @@ Additionally, scripting and debugging workflows were emphasized, highlighting ho
 
 # What I Gained
 
-During this six-week onboarding project, I learned a lot about Digital Design, Design Verification, and Physical Design, broadening my total knowledge on the subject. However, I believe the most important part of this project to me was the fact that it opened my eyes to digital design. Unlike typical computer science (which I'm more accustomed to), digital design requires more attention to detail and more awareness of what you're actually making. Because this will take up real space on real chips, everything must be intentional and you can't take shortcuts. This philosophy is very important to me, and it is why I believe digital design is the career choice for me.
+During this six-week onboarding project, I learned about Digital Design, Design Verification, and Physical Design, broadening my total knowledge on the subject. However, I believe the most important part of this project to me was the fact that it opened my eyes to digital design. Unlike typical computer science (which I'm more accustomed to), digital design requires more attention to detail and more awareness of what you're actually making. Because this will take up real space on real chips, everything must be intentional and you can't take shortcuts. This philosophy is very important to me, and it is why I believe digital design is the career choice for me.
